@@ -1,3 +1,5 @@
+#import java.util.Scanner
+
 public class calculater()
 {
 
@@ -5,8 +7,12 @@ public static void main (String[]arg)
 
 {
 
-int x = 5;
-int y = 10;
+Scanner input = new Scanner(System.in);
+
+System.out.println("Enter First number");
+int x = input.nextInt();
+System.out.println("Enter Next number");
+int y = input.nextInt();
 
 int sum = x+y;
 
